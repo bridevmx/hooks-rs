@@ -17,7 +17,7 @@ function registerTransferHook() {
                 // Continúa, el error será manejado si el frontend necesita estos datos y no los recibe.
             }
 
-            const fetchUrl = `http://localhost:5173/hooks/new-transfer`;
+            const fetchUrl = `https://ibrandpro-recarga-seguro-sveltekit.0itkyu.easypanel.host/hooks/new-transfer`;
             console.log(`[Transfers Logic] Realizando POST a: ${fetchUrl}`);
 
             try {
@@ -76,4 +76,5 @@ function registerTransferHook() {
 
 module.exports = {
     registerTransferHook
+
 };
